@@ -1,0 +1,116 @@
+body{
+  margin: 0;
+  padding: 0px;
+  background-color: #eee;
+}
+.title{
+  height: 100px;
+  background-color: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.title h1{
+  padding-top: 22px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card1{
+  height: 350px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  border-radius: 5px;
+}
+.card1 img{
+  border-radius: 5px 5px 0px 0px;
+}
+.card1 h3{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 10px 10px 0px 20px;
+}
+.card1 span{
+  display: block;
+  padding: 0px 10px 0px 20px;
+  font-weight: 500;
+  font-size: 18px;
+}
+.card1 .btn{
+  display: block;
+  text-align: center;
+}
+.card1 button {
+  margin-top: 20px;
+  border: none;
+  padding: 8px 35px;
+  border: 0.1px solid #03C988;
+  color: #FF0032;
+}
+
+@media(max-width:600px){
+  .title{
+    height: auto;
+    padding: 0px;
+  }
+  .title h1{
+    font-size: 25px;
+    padding: 10px;
+  }
+}
+
+/*
+.menu{
+  height: 60px;
+  background-color: red;
+  padding-top: 14px;
+  }
+  .menu nav ul li{
+  display: inline-block;
+  }
+  .menu nav ul li .nav{
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 25px;
+  font-family: 'Poppins', sans-serif;
+  padding: 3px 5px;
+  }
+  .menu nav ul li .nav:hover{
+  background-color: #fff;
+  color: red;
+  transition: all 2s;
+  }
+*/
+
+/*
+.first{
+  height: 100px;
+  background-color: black;
+}
+
+.sec{
+  height: 100px;
+  background-color: white;
+}
+/*
+.third{
+  height: 300px;
+  width: 33.33%;
+  float: left;
+  background-color: green;
+}
+.fourth{
+  height: 300px;
+  width: 33.33%;
+  float: left;
+  background-color: skyblue;
+}
+.fifth{
+  height: 100px;
+  width: 50%;
+  float: left;
+  background-color: violet;
+}
+.sixth{
+  height: 100px;
+  width: 50%;
+  float: left;
+  background-color: pink;
+}
+*/
